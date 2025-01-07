@@ -44,12 +44,11 @@ Way2SendAPI to aplikacja webowa stworzona w **ASP.NET Core Web API** z wykorzyst
 
 ### 1. Autoryzacja
 - Uzyskaj token JWT, wysyłając żądanie POST na `/api/auth/login` z przykładowym ciałem:
-   ~~~bash
+   ```bash
    {
        "username": "admin",
        "password": "admin"
    }
-   ~~~bash
 - Użyj tokena w nagłówku `Authorization` w formacie `Bearer {token}`.
 
 ### 2. Endpointy
@@ -66,10 +65,8 @@ Way2SendAPI to aplikacja webowa stworzona w **ASP.NET Core Web API** z wykorzyst
 1. Przejdź do folderu projektu testów:
    ~~~bash
    cd Way2SendApi.Tests
-   ~~~bash
 
 2. Uruchom testy:
    ~~~bash
    dotnet test
-   ~~~bash
 
